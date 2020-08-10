@@ -13,7 +13,7 @@ video = VideoFileClip(video_file)
 video.audio.write_audiofile(audio_file,ffmpeg_params=['-ar','16000','-ac','1'])
 
 
-# # 音频转文件
+# # 音频转文本
 
 '''
 百度语音识别：https://console.bce.baidu.com/ai/?_=1597039403602#/ai/speech/overview/index
