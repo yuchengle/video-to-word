@@ -29,9 +29,9 @@ video.audio.write_audiofile(audio_file,ffmpeg_params=['-ar','16000','-ac','1'])
 百度语音识别：https://console.bce.baidu.com/ai/?_=1597039403602#/ai/speech/overview/index
 '''
 #从百度AI开放平台创建应用处获取
-APP_ID = '21831546'
-API_KEY = 's4Y2lBXaYHM8ofGOWxZ69gfd'
-SECRET_KEY = 'F1RlVhGvKRoOLLzX6XFxmloG99CGhzrg'
+APP_ID = '***'
+API_KEY = '***'
+SECRET_KEY = '***'
 
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
