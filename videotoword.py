@@ -1,18 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
-# -*- coding: utf-8 -*-
 from moviepy.editor import VideoFileClip
 from aip import AipSpeech
 
 
 # # 视频转音频
-
-# In[3]:
-
 
 video_file = 'https://v2.addnewer.com/media/2020/08/1596606940740.mp4'
 audio_file = '/data/jupyterCode/yucl/videotoword/out.wav'
@@ -21,9 +14,6 @@ video.audio.write_audiofile(audio_file,ffmpeg_params=['-ar','16000','-ac','1'])
 
 
 # # 音频转文件
-
-# In[4]:
-
 
 '''
 百度语音识别：https://console.bce.baidu.com/ai/?_=1597039403602#/ai/speech/overview/index
@@ -47,18 +37,7 @@ def get_text():
     text = result['result'][0]
     return text
 
- 
-
-
-# In[5]:
-
-
 res = get_text()
-res
+print (res)
 
-
-# In[ ]:
-
-
-
-
+'''紫熨斗全新的文体验波色因欧莱雅集团专利成本协同，玻尿酸生锈，石伟有一段话拽文，抬头纹和法令纹，眼部的全脸细纹，青森淡季功能鸭子熨斗。'''
