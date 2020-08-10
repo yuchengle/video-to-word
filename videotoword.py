@@ -8,7 +8,7 @@ from aip import AipSpeech
 # # 视频转音频
 
 video_file = 'https://v2.addnewer.com/media/2020/08/1596606940740.mp4'
-audio_file = '/data/jupyterCode/yucl/videotoword/out.wav'
+audio_file = '/data/jupyter/yucl/videotoword/out.wav'
 video = VideoFileClip(video_file)
 video.audio.write_audiofile(audio_file,ffmpeg_params=['-ar','16000','-ac','1'])
 
